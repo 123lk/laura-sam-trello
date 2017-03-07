@@ -8,7 +8,7 @@
     "lint": "eslint ./src",
     "precommit": "npm run lint",
     "start": "webpack",
-    "dev":"webpack-dev-server"
+    "dev": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
@@ -30,6 +30,8 @@
   },
   "dependencies": {
     "bulma": "^0.3.2",
+    "file-loader": "^0.10.1",
+    "font-awesome": "^4.7.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   }
